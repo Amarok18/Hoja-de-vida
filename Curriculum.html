@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+    
+        th,td {
+            text-align: left;
+            padding: 8px;
+            border: 2px solid blue;
+        }
+    
+        th {
+            background-color: greenyellow;
+        }
+        #Formulario{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="Left">
+        <section id="Informacion-Personal">
+            <h1>Jose Obdulio Lopez</h1>
+            <h2>Ingeniero en Mecatronica</h2>
+       </section>
+        </div>
+       <div id="Left-section">
+        <section id="Contacto">
+            <h2>Celular</h2>
+            <h3>+504 9869-9041</h3>
+            <h2>Email</h2>
+            <h3>jolopez181999@gmail.com</h3>
+            <h2>Address</h2>
+            <h3>San Pedro Sula, Cortes</h3>
+            <button onclick="window.open('https://www.linkedin.com/in/jose-lopez-838527280/', '_blank')">Linkedin</button>
+            <button onclick="window.open('https://github.com/Amarok18/', '_blank')">GitHub</button>
+        </section>
+        <section id="Educacion">
+            <h2>Western International School</h2>
+            <p>Inscripto desde <strong>2007-hata 2016</strong></p>
+            <ul>
+                <li>Participacion en feria de las ciencias, concursos de ortografia y matematicas</li>
+                <li>Participacion en equipo de futbol</li>
+            </ul>
+            <h2>Universidad Tecnologica Centroamericana (UNITEC)</h2>
+            <p>Inscripto desde <strong>2016-hata 2021</strong></p>
+            <ul>
+                <li>Realizacion de Proyectos en Circuitos Electricos II, Electronica de Potencia, PLC, 
+                    Redes Industriales, Programacion, Microprocesadores, Maquinas y Herramientas, etc.</li>
+                <li>Participacion en Labores Sociales</li>
+            </ul>
+        </section>
+       </div>
+        <hr>
+        <div id="Mid-section">
+        <section class="Perfil-Personal">
+            <h2>PERFIL PERSONAL</h2>
+            <p>Soy un Ingeniero Mecatrónico responsable,comprometido yproactivo, preparado para trabajar conla mejor actitud
+            ypermitirme mejorar mis habilidadescada vez mas. Meconsidero una persona que busca lassoluciones a losproblemas y no
+            rendirme hastaencontrar la solucion.</p>
+        </section>
+        <hr>
+        <section class="Experiencia">
+            <h3>Grupo Jaremar (Olepsa)</h3>
+            <h3>Practica Profesional</h3>
+            <ul>
+                <li>Encargado de levantamiento de información delasmaquinas dentro de las plantas con el fin deconocer suestado actual.</li>
+                <li>Mantenimiento preventivo e correctivos</li>
+                <li>Manejo de herramientas e equipo de calibración</li>
+            </ul>
+            <h3>Empire Electronics</h3>
+            <h3>Ingeniero APQP PCB</h3>
+            <ul>
+                <li>Ingeniero a cargo de programas en PCBprogramas FNG y Magna</li>
+                <li>Encargado de las lineas para arranque de lineaspara produccion de tarjetas</li>
+                <li>Creacion de Documentacion PPAP paraaprobacion de produccion masiva de piezas.</li>
+                <li>Encargado de sistema para produccion en lineade SMT (Surface Mount Technology), RTR (Despanelizado de partes), ASM/Wave
+                (RobotSoldador y Maquina de Ola pára soldar) yEnsamble (Pruebas Electricas)</li>
+            </ul>
+            <h3>Experiencia a Futuro</h3>
+            <h3>Full Stack Developer</h3>
+                <ul>
+                    <li>Ser programador Full Stack</li>
+                    <li>Adquirir un empleo remoto en una empresa extranjera</li> 
+                    <li>Obtener conocimientos de diversos lenguajes de Programacion</li>
+                </ul>
+        </section>
+        <hr>
+        <section class="Competencias">
+            <h2>Competencias-Habilidades en Mecatronica</h2>
+            <ul>
+                <li>Manejo de Solidworks</li>
+                <li>Manejo de Proteus</li>
+                <li>Manejo de Paquetes de Office</li>
+                <li>Programacion en CNC Simulator</li>
+                <li>Retrabajo de Placas Electronicas</li>
+                <li>Manejo de AutoCAD</li>
+            </ul>
+            <h2>Habilidades Tecnicas</h2>
+                <table border="2px">
+                    <tr>
+                        <th>Habilidades Tecnicas</th>
+                        <th>Tecnologias</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Desarrollo Web</td>
+                        <td>Javascript, HTML , CSS</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                    </tr>
+                </table>
+            <h2>Intereses</h2>
+            <table border="2px">
+                <tr>
+                    <th colspan="2">Intereses</th>
+                </tr>
+                <tr>
+                    <td rowspan="5">Desarrollo de</td>
+                </tr>
+                <tr>
+                    <td>Aplicaciones Moviles</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo de Videojuegos</td>
+                </tr>
+                <tr>
+                    <td>Ciberseguridad</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo de Software</td>
+                </tr>
+                </table>
+        </section>
+      </div>
+    </main>
+    <div id="Formulario">
+        <form>
+            <label for="email"><img src="Iconos/iconfinder-document04-1622832_121950.png" alt="Icono de email" height="35px" widht="25px"></label>
+            <input type="email" required>
+            <br>
+            <br>
+            <label for="message">Mensaje</label>
+            <textarea id="Mensaje" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Contactar</button>
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
