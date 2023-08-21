@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+main{
+    width:800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+ul{
+ list-style: none;
+}
+.left-section{
+    background: rgba(0, 208, 255, 0.651);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.right-section {
+    background-color: white;
+    width: 70%;
+}
+.perfil-img {
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#foto{
+    width:100%;
+    height:250px;
+    border-radius: 60%;
+}
+.titulo-contacto{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Contacto,.Softwares,.IDIOMAS{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: space-evenly;
+}
+.email,.telefono,.link,.ubicacion{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+.icono-mail,.icono-telefono,.icono-ubicacion,.icono-link{
+    width: 25px;
+    margin-left: 25px;
+}
+.background-icono{
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+.txt-cont{
+    font-size: 15px;
+    font-weight: bold;
+}
+.Titulo-Softwares,.Titulo-Idiomas{
+    text-align: center;
+}
+.Web-design,.Javascript,.HTML,.CSS,.React,.Español,.Ingles,.Aleman{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+.Javascript,.Ingles{
+    gap: 20px;
+}
+.HTML {
+    gap: 38px;
+}
+.CSS {
+    gap: 54px;
+}
+.React {
+    gap: 45px;
+}
+.txt-softwares,.txt-idiomas{
+    margin-left: 35px;
+}
+.background-exp{
+    background-color: white;
+    width: 90px;
+    height: 15px;
+}
+.caja-exp-web,.caja-exp-javascript,.caja-exp-react{
+    background-color: blue;
+    width: 40%;
+    height: 15px;
+}
+.caja-exp-html,.caja-exp-CSS{
+    background-color: blue;
+    width: 65%;
+    height: 15px;
+}
+.caja-exp-español{
+    background-color: blue;
+    width: 100%;
+    height: 15px;
+}
+.caja-exp-ingles{
+    background-color: blue;
+    width: 90%;
+    height: 15px;
+}
+.caja-exp-aleman {
+    background-color: blue;
+    width: 15%;
+    height: 15px;
+}
+.img-hobbies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Perfil-Personal{
+    padding-top: 35px;
+}
+#Nombre{
+    padding-left: 60px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-style: italic;
+}
+#Apellido{
+    padding-left: 45px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+#carrera{
+    padding-top:10px;
+    padding-bottom: 10px;
+    color: blue;
+    font-size: 20px;
+}
+.Educacion,.Exp-profesional{
+    padding-top: 10px;
+}
+.txt-educacion{
+    font-size: 20px;
+    background-color: aqua;
+    width: 145px;
+    border-radius: 50px;
+    padding-left: 7px;
+}
+.Colegio,.Universidad,.Empire,.Futuro{
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.Inscripcion,.Puesto{
+    padding-top: 2px;
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+.txt-exp{
+    display: inline;
+    font-size: 20px;
+    background-color: aqua;
+    width: 200px;
+    border-radius: 50px;
+    padding-left: 7px;
+}
